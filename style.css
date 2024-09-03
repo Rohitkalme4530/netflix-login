@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .root {
+    background-size: cover;
+    background-image: url(image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .navbar {
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .img-logo{
+    width: 14%;
+    color: red;
+  }
+  
+  .btn-sign-in {
+    padding-top: 8px;
+     padding-bottom: 8px;
+      padding-left: 20px;
+       padding-right: 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+  }
+  .main-container {
+    width: 100%;
+    height: 90vh;
+    
+  }
+  .main-titel-container {
+    text-align: center;
+    color: white;
+    align-content: center;
+  
+  }
+  .main-title {
+     font-family:netflix-sans-regular ;
+    front-size: 3.2em;
+    margin-bottom: 14px;
+  }
+  .main-subtitle {
+    font-family: Arial,Helvetica, Sans-Serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    
+  }
+  .main-call-to-action {
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 1.2em;
+  }
+  .box {
+    width: 500px;
+    height: 40px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-left:330px;
+    
+  }
+    .btn-get-started {
+      cursor: pointer;
+      padding: 10px 32px;
+      font-family: Arial,Helvetica, Sans-Serif ;
+      height: fit-content;
+      background-color: red;
+      color: white;
+      font-size: 1.4em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+      .btn-get-started:hover {
+      background-color: red;
+    
+    }
+    h1 {
+      color: red;
+    }
